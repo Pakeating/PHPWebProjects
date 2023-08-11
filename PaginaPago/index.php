@@ -23,7 +23,7 @@ $listaProductos=$productos->fetchAll(PDO::FETCH_OBJ);
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Compra tu disfraz!</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
