@@ -198,3 +198,74 @@ header{
 .container-box-card-primary p{
     margin-top:20px;
 }
+/* about */
+
+.container-about{
+    padding:100px 0;
+    background: var(--background-color);
+    margin-top: 100px;
+}
+.about{
+    max-width: 1200px;
+    margin:auto;
+    padding:0 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.about-text{
+    width:100%;
+    padding-right: 40px;
+}
+.about-text h1{
+    color:var(--txt-paragraph);   
+    font-weight: 600;
+}
+.about-text p{
+    font-size: var(--txt-paragraph);
+    margin-top: 40px;
+    color:var(--color-txt-tertiary);
+}
+.img-about{
+    width:100%;
+    display:flex;
+}
+
+/* servicios */
+.container-service{
+    width: 100%;
+    justify-content: center;
+}
+.container-card-service{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card-service{
+    max-width: 300px;
+    padding:60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin:14px;
+    transition:0.3;
+}
+.card-service a{
+    display: flex;
+    margin-top:20px;
+
+}
+
+.card-service a i{
+    margin:auto;
+    font-size: 50px;
+    color:var(--main-color-primary);
+    transition:ease-in 0.3s;
+}
+.card-service a i:hover{
+
+    font-size: 55px;
+    color:var(--main-color-secundary);
+
+}
