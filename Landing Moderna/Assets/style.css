@@ -38,6 +38,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:0 20px;
+    background-color: var(--main-color-secundary);
 }
 .logo{
     display: flex;
@@ -250,11 +251,17 @@ header{
     border-radius: 20px;
     margin:14px;
     transition:0.3;
+    
 }
 .card-service a{
     display: flex;
     margin-top:20px;
 
+}
+.card-service img{
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
 }
 
 .card-service a i{
