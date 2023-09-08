@@ -329,11 +329,12 @@ header{
     justify-content: center;
 }
 
-.container-work-content  img{
+.container-work-content  .container-img{
     border-radius: 10vh;
     margin: 2vw 2vw;
     height:25vw;
     width: 25vw;
+    overflow: hidden;
     
 }
 .works-text{
