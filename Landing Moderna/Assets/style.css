@@ -78,7 +78,7 @@ header{
     padding:8px 40px;
     border:2px solid var(--main-color-primary);
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 800;
     margin: 0 20px;
     transition: 0.3s;
 }
@@ -96,6 +96,9 @@ header{
 }
 
 /* zona portada */
+body{
+    position:absolute;
+}
 .container-cover{
     padding-top:100px;
     padding-bottom: 100px;
@@ -148,7 +151,7 @@ header{
 .img-cover img{
     width:550px;
 }
-/* CARDS: estilos generales  */
+/* cards  */
 .container-card-primary{
     padding-top:100px;
 
@@ -285,7 +288,7 @@ header{
 /* works */
 .container-work{
     margin:20px 5vw;
-    
+    min-height: 150vh;
 }
 .container-work-navbar{
     display:flex;
@@ -311,7 +314,7 @@ header{
     background: var(--main-color-secundary);
     border-radius: 10vh;
     overflow: hidden;
-    height: 700px;
+    min-height: 700px;
     position: absolute;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -322,11 +325,12 @@ header{
 }
 .container-work-content.work-active{
     position:relative;
-    height: 700px;
+    min-height: 700px;
     display:flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .container-work-content  .container-img{
@@ -373,4 +377,56 @@ header{
     color:var(--color-txt-primary);
     font-weight: bold;
 
+}
+
+/* foooter */
+
+footer{
+    background-color: var(--main-color-primary);
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    height: 80px;
+    margin-top: 100px;
+    padding:15px;
+}
+.container-footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10vw;
+    flex-wrap: wrap;
+}
+.contacto{
+    color: var(--main-color-secundary);
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.legal{
+    color:var(--main-color-secundary);
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footer-lugar{
+    display:block;
+    padding:10px;
+    cursor:pointer;
+    border-radius: 10px;
+    border:2px solid var(--main-color-secundary);
+    background-color:var(--main-color-primary);
+    
+}
+.footer-lugar a{
+    color: var(--main-color-secundary);
+    font-weight: 800;
+}
+.footer-lugar:hover{
+    border:2px solid var(--color-txt-secundary);
+    background-color: var(--main-color-secundary);
+
+}
+.footer-lugar:hover a{
+    color: var(--main-color-primary);
 }
