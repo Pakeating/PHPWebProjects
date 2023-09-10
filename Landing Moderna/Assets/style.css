@@ -244,6 +244,22 @@ body{
     width: 100%;
     justify-content: center;
 }
+.text-service{
+    margin-bottom: 100px;
+}
+.text-service p{
+    color:var(--color-txt-primary);
+    letter-spacing: 4px;
+    font-size: var(--txt-paragraph);
+    font-weight: 500;
+}
+.text-service h1{
+    margin-top: 20px;
+    font-size:var(--txt-size-title);
+    font-weight: 600;
+    color:var(--color-txt-secundary);
+
+}
 .container-card-service{
     display: flex;
     flex-wrap: wrap;
@@ -386,7 +402,7 @@ footer{
     width: 100%;
     position:absolute;
     bottom: 0;
-    height: 80px;
+    /* height: ; */
     margin-top: 100px;
     padding:15px;
 }
@@ -402,12 +418,18 @@ footer{
     display:flex;
     flex-direction: column;
     gap:10px;
+    padding:10px;
+    border-radius: 20px;
+    border-left:3px solid var(--main-color-secundary);
+    border-right:3px solid var(--main-color-secundary);
+    font-weight: bold;
 }
 .legal{
     color:var(--main-color-secundary);
     display:flex;
     flex-direction: column;
     gap:10px;
+    max-width: 30%;
 }
 .footer-lugar{
     display:block;
